@@ -349,7 +349,6 @@ html {
     flex-direction: column; 
     width: 100%;
     padding: 0 20px; 
-    margin-top: 80px; /* הרווח מההדר */
     position: relative; 
     gap: 0 !important; 
   }
@@ -388,7 +387,8 @@ html {
   /* Mobile Header */
   .header-wrapper-text {
     position: fixed; top: 0; right: 0; width: 100%; height: auto;
-    background: white; padding: 15px 20px; z-index: 9999;
+   
+     padding: 15px 20px; z-index: 9999;
     text-align: right; display: block; white-space: nowrap;
     
     /* מונע קפיצות גובה */
