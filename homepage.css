@@ -690,6 +690,12 @@ header-wrapper-text {
     .issues-list-mobile li {
         display: inline-block; /* הופך כל מספר ל"מילה" בשורה */
         margin: 2px 4px; /* רווח קבוע ושווה: 2px מלמעלה/למטה, 4px מהצדדים */
+         font-family: 'thebasics-bold', sans-serif;
+        font-style: normal;
+        line-height: 1.2; /* גובה שורה שמונע התנגשות */
+        font-feature-settings: "case" 1, "ss08" 1, "liga" 1;
+        -webkit-font-feature-settings: "case" 1, "ss08" 1, "liga" 1;
+        font-variant-ligatures: contextual;
     }
 
     /* עיצוב המספרים - נשאר זהה למחשב */
